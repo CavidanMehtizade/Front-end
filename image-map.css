@@ -1,0 +1,20 @@
+.image{
+border: 3px solid white;
+border-radius: 50px;
+width: 100px;
+height: 100px;
+
+}
+.p-1{
+position: absolute;
+right: 400px;
+top: 10px;
+color: blue;
+}
+.mark{
+ color: blue;
+}
+.google{
+height: 50px;
+width: 50px;
+}
