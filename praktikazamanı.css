@@ -1,0 +1,17 @@
+body{
+background-image: url(OIF.jpeg);
+background-repeat: no-repeat;
+width: 1500px;
+height: 700px;
+}
+.p-2{
+border: 3px solid white;
+color: rgb(255, 255, 255);
+
+}
+.p-1{
+color: rgb(255, 255, 255);
+}
+p{
+width: 200px;
+}
