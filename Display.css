@@ -11,4 +11,5 @@ body{
     border: 3px black solid;
     background-color: skyblue;
     width: 150px;
+    border-radius: 20px;
 }
