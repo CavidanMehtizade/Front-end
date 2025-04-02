@@ -4,17 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h2{
+            color: lightblue;
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            float: left;
+            color: blue;
+            padding: 5px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        input{
+            width: 350px;
+            height: 20px;
+        }
+        #submit{
+            width: 50px;
+            background-color: lightblue;
+            border-color: blue;
+        }
+    </style>
 </head>
 <body>
-    <header>Contact Us - General Questions//Feedback </header>
-    <label for="Question Topic">General Questions and Comments</label>
-    <input type="checkbox" name="Question Topic"><br>
-    <label for="E-mail">Email Address</label>
+    <header>
+<h2>preserve</h2>
+<div style="position: absolute; right: 0; top: 0;">
+<ul>
+    <li>Shop</li>
+    <li>Gimme 5 programs</li>
+    <li>Who we are</li>
+    <li>Sales</li>
+    <li>Contact us</li>
+    <li>Faqs</li>
+    <li>Cart</li>
+</ul></div><hr><br>
+    </header>
+    <main><h3>Contact us</h3><br>
+    <label for="Question Topic">Your Question Topic</label><br>
+    <input type="text" name="Question Topic" placeholder="General Questions and Comments"><br>
+    <label for="E-mail">Email Address</label><br>
     <input type="text" name="E-mail"><br>
-    <label for="phone-number">phone-number</label>
+    <label for="phone-number">phone-number</label><br>
     <input type="text" name="phone-number"><br>
-    <label for="name">name</label>
+    <label for="message">message</label><br>
+    <textarea name="message"></textarea><br>
+    
+    <label for="name">name</label><br>
     <input type="text" name="name"><br>
+    <input type="submit" id="submit">
+</main>
 
 </body>
 </html>
