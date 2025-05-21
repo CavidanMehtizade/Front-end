@@ -1,4 +1,3 @@
-const name="Cavidan"
-console.log(name)
-let age=12
-console.log(age)
+let num=15
+num**=5
+console.log(num%3)
